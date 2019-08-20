@@ -2,8 +2,8 @@
 Detection of Phishing Websites using Random Forest based on a Dataset available in UCI: ML Repository. 
 This project provides an interface to users to check any website whether it is phishing or not. This model uses Random Forest. There are two parts of the applicaton which are feature extraction and another is for training the data and dumping the results in a PKL file. Various libraries has been used for Random forest implementation and features extraction from websites.  Many of the features has been extracted using regular expression. The data has been taken from UCI: Machine Learning Repository. Detailed explanation of the features that are extracted in the module can be found at https://archive.ics.uci.edu/ml/machine-learning-databases/00327/  .
 This data is in CSVFormat. The relation name is phishing and has 31 attributes. There are 11055 instances in the data set.This collected features hold the categorical values, Legitimate, Suspicious and Phishy, these values have been replaced with numerical values 1,0 and -1 respectively.
-Below is the list of the features that are extracted in the Module.
-Features Extraction:
+Here is the list of the features that are extracted in the Module.
+
 •	having_IP_Address  { -1,1 }
 •	URL_Length   { 1,0,-1 }
 •	Shortining_Service { 1,-1 }
